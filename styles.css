@@ -1,0 +1,56 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: black;
+    color: white;
+    font-family: "IBM Plex Mono", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Container Styling */
+  .container {
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Subtitle Styling */
+  .subtitle {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+  }
+  
+  /* GIF Styling */
+  .gif {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  /* Links Styling */
+  .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
